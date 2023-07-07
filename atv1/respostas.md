@@ -7,6 +7,7 @@ R: É a arquitetura desenvolvida pelo padrão internacional X.800 da ITU-T, ela 
 R: Diria que a principal diferença entre ameaças passivas e ativas está na característica da possibilidade detecção da ameaça, como uma ameaça passiva tem a intenção de apenas escutar os dados ela é indetectável, já a ativa tem a intenção de modificar, trocar a ordem ou negar o serviço.
 
 **3. Liste e defina resumidamente as categorias de ataques passivos e ativos à segurança.**
+
 R: As categorias de ataques passivos temos
 1. O vazamento de conteúdo de mensagem: consiste na escuta e obtenção de dados confidenciais ou sensíveis em mensagens, conversa telefônica, correio eletrônico, etc.
 2. Análise de tráfego: resumisse em analisar o padrão de mensagens, seu local de origem e destino, identidades de origem e destino da mensagem, frequência e tamanho da mensagem, tais informações são úteis para descobrir a natureza da comunicação que está ocorrendo.
@@ -21,24 +22,24 @@ Já as categorias de ataques ativos são
 
 R: Os serviços de segurança são divididos em cinco categorias cada qual serviços específicos, são elas
 1. Autenticação: diz respeito que se tem a certeza que a entidade que está se comunicando é aquela que afirma ser.
-    a. Autenticidade de entidade pareada: usada em associação com uma conexão lógica para fornecer confiança na identidade das entidades conectadas.
-    b. Autenticidade de origem de dados: em uma transferência sem conexão, oferece certeza de que a origem dos dados recebidos é conforme alegada.
+    - Autenticidade de entidade pareada: usada em associação com uma conexão lógica para fornecer confiança na identidade das entidades conectadas.
+    - Autenticidade de origem de dados: em uma transferência sem conexão, oferece certeza de que a origem dos dados recebidos é conforme alegada.
 2. Controle de acesso: prevenção de uso não autorizado de um recurso.
 3. Confidencialidade dos dados: proteção dos dados contra divulgação não
 autorizada.
-    a. Confidencialidade de conexão: proteção de todos os dados do usuário em uma conexão.
-    b. Confidencialidade sem conexão: proteção de todos os dados do usuário em um único bloco de dados.
-    c. Confidencialidade com campo seletivo: confidencialidade de campos selecionados dentro dos dados do usuário em uma única conexão ou em um bloco de dados.
-    d. Confidencialidade do fluxo do tráfego: proteção das informações que poderiam ser derivadas dos fluxos de tráfego.
+    - Confidencialidade de conexão: proteção de todos os dados do usuário em uma conexão.
+    - Confidencialidade sem conexão: proteção de todos os dados do usuário em um único bloco de dados.
+    - Confidencialidade com campo seletivo: confidencialidade de campos selecionados dentro dos dados do usuário em uma única conexão ou em um bloco de dados.
+    - Confidencialidade do fluxo do tráfego: proteção das informações que poderiam ser derivadas dos fluxos de tráfego.
 4. Integridade de dados: certeza que os dados recebidos são exatamente conforme enviados pela entidade autorizada.
-    a. Integridade de conexão: integridade de todos os dados do usuário em uma única conexão e detecta qualquer modificação, inserção, exclusão ou repasse de quaisquer dados dentro de uma sequência inteira, com tentativas de recuperação.
-    b. Integridade da conexão sem recuperação: integridade de todos os dados do usuário em uma única conexão e detecta qualquer modificação, inserção, exclusão ou repasse de quaisquer dados dentro de uma sequência inteira, sem tentativas de recuperação.
-    c. Integridade da conexão com campo seletivo: integridade de campos selecionados nos dados do usuário de um bloco de dados transferido por uma conexão e determina se os campos selecionados foram modificados, inseridos, excluídos ou repassados.
-    d. Integridade sem conexão: integridade de um único bloco de dados sem conexão e pode tomar a forma de detecção da modificação de dados. Além disso, pode haver uma forma limitada de detecção de repasse.
-    e. Integridade sem conexão com campo seletivo: integridade de campos selecionados dentro de um único bloco de dados sem conexão; determina se os campos selecionados foram modificados.
+    - Integridade de conexão: integridade de todos os dados do usuário em uma única conexão e detecta qualquer modificação, inserção, exclusão ou repasse de quaisquer dados dentro de uma sequência inteira, com tentativas de recuperação.
+    - Integridade da conexão sem recuperação: integridade de todos os dados do usuário em uma única conexão e detecta qualquer modificação, inserção, exclusão ou repasse de quaisquer dados dentro de uma sequência inteira, sem tentativas de recuperação.
+    - Integridade da conexão com campo seletivo: integridade de campos selecionados nos dados do usuário de um bloco de dados transferido por uma conexão e determina se os campos selecionados foram modificados, inseridos, excluídos ou repassados.
+    - Integridade sem conexão: integridade de um único bloco de dados sem conexão e pode tomar a forma de detecção da modificação de dados. Além disso, pode haver uma forma limitada de detecção de repasse.
+    - Integridade sem conexão com campo seletivo: integridade de campos selecionados dentro de um único bloco de dados sem conexão; determina se os campos selecionados foram modificados.
 5. Irretratabilidade: oferece proteção contra a negação, por parte de uma das entidades envolvidas em uma comunicação, de ter participado de toda ou parte dela.
-    a. Irretratabilidade da origem: prova de que a mensagem foi enviada pela parte especificada.
-    b. Irretratabilidade do destino: prova de que a mensagem foi recebida pela parte especificada.
+    - Irretratabilidade da origem: prova de que a mensagem foi enviada pela parte especificada.
+    - Irretratabilidade do destino: prova de que a mensagem foi recebida pela parte especificada.
 
 **5. Liste e defina resumidamente as categorias dos mecanismos de segurança.**
 
@@ -67,6 +68,7 @@ Disponibilidade: existem períodos que esses caixas não estão disponíveis par
 
 **7. Para responder as letras abaixo, por favor, consulte o livro-texto da disciplina:**
 **a. Desenhe uma matriz similar ao Quadro 1.4 que mostre o relacionamento entre serviços de segurança e ataques.**
+
 R:
 | Serviço X Ataques | AP1 | AP2 | AA1 | AA2 | AA3 | AA4 |
 |---|---|---|---|---|---|---| 
