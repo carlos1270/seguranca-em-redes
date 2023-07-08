@@ -22,7 +22,7 @@ R: A S-box é formada pensando em sua consulta, onde a primeira linha é enumera
 
 b<sup>'</sup><sub>i</sub> = b<sub>i + b(i + 4) mod 8</sub> + b<sub>(i + 5) mod 8</sub> + b<sub>(i + 6) mod 8</sub> + b<sub>(i + 7) mod 8 </sub> + c<sub>i</sub>
 
-Onde c<sub>i</sub> é o bit i do binário 01100011 para gerar a S-box.
+Onde c<sub>i</sub> é o bit *i* do binário 01100011 para gerar a S-box.
 
 **c. Descreva rapidamente o estágio SubBytes, ShiftRows, MixColumns, AddRoundKey, e o algoritmo de expansão de chave.**
 
