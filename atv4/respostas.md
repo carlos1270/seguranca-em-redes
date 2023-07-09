@@ -34,6 +34,10 @@ MixColumns é a operação que realiza uma multiplicação do array Estado com a
 
 AddRoundKey é a operação que realiza um XOR com a chave da rodada
 
+**5. Quantos bytes no Estado são afetados por ShiftRows?**
+
+R: 12 bytes já que os shifts realizados deslocam os bytes pelo menos uma vez no Estado.
+
 **7. Compare AES com DES. Para cada um dos seguintes elementos do DES, indique o elemento comparável no AES ou explique por que ele não é necessário no AES.**
 **a. XOR do material da subchave com a entrada da função f.**
 
