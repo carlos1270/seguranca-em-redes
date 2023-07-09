@@ -19,8 +19,10 @@ R: O array de estado contém as palavras em bytes do texto cifrado até a rodada
 **b. Como é a estrutura da S-box?**
 
 R: A S-box é formada pensando em sua consulta, onde a primeira linha é enumerada na forma {00}, {01}, {02}, …, {0F}. A segunda é formada {10}, {11}, {12}, … {1F}. E as linhas seguintes são formadas de maneira sequencial para consulta a posteriori até a célula {FF}. Em seguida é aplicado o inverso multiplicativo no Corpo finito GF(28) a cada célula da tabela e a fórmula abaixo é aplicada a cada inverso gerado. 
+
 b<sup>'</sup><sub>i</sub> = b<sub>i + b(i + 4) mod 8</sub> + b<sub>(i + 5) mod 8</sub> + b<sub>(i + 6) mod 8</sub> + b<sub>(i + 7) mod 8 </sub> + c<sub>i</sub>
-Onde c<sub>i</sub> é o bit i do binário 01100011 para gerar a S-box.
+
+Onde c<sub>i</sub> é o bit *i* do binário 01100011 para gerar a S-box.
 
 **c. Descreva rapidamente o estágio SubBytes, ShiftRows, MixColumns, AddRoundKey, e o algoritmo de expansão de chave.**
 
