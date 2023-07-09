@@ -4,7 +4,7 @@ R: É uma encriptação ou cifragem que possui três estágios de encriptação,
 
 **2. O que é ataque *meet-in-the-middle*?**
 
-R: É o ataque suposto que quebra a dupla incriptação do DES de maneira relativamente simples. Dado um par conhecido de palavra e texto cifrado, (*P*, *C*), o ataque prossegue da forma a seguir. Primeiro, encripte *P* para todos os 2<sup>56</sup> valores possíveis de K<sub>*1*<sub>. Armazene esses resultados em uma tabela e depois ordene-a pelos valores de X. Em seguida, decripte C usando todos os 2<sup>56</sup> valores possíveis de K<sub>*2*<sub>. À medida que cada decriptação é produzida, compare o resultado com a tabela, em busca de uma ocorrência. Se houver uma correspondência, então confronte as duas chaves resultantes com um novo par de texto claro/texto cifrado conhecido. Se as duas chaves produzirem o texto cifrado esperado, aceite-as como as corretas.
+R: É o ataque suposto que quebra a dupla incriptação do DES de maneira relativamente simples. Dado um par conhecido de palavra e texto cifrado, (*P*, *C*), o ataque prossegue da forma a seguir. Primeiro, encripte *P* para todos os 2<sup>56</sup> valores possíveis de K<sub>*1*</sub>. Armazene esses resultados em uma tabela e depois ordene-a pelos valores de X. Em seguida, decripte C usando todos os 2<sup>56</sup> valores possíveis de K<sub>*2*</sub>. À medida que cada decriptação é produzida, compare o resultado com a tabela, em busca de uma ocorrência. Se houver uma correspondência, então confronte as duas chaves resultantes com um novo par de texto claro/texto cifrado conhecido. Se as duas chaves produzirem o texto cifrado esperado, aceite-as como as corretas.
 
 **3. Quantas chaves são usadas na encriptação tripla?**
 
