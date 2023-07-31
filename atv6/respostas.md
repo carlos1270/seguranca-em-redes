@@ -19,6 +19,7 @@ R: São utilizadas permutações, para gerar um S-box e criar uma chave pseudoal
 R: Sabemos que 31 é primo, logo devemos achar um a que produz um periodo máximo de m-1, ou seja, 31-1=30. Temos como primeira opção 3, a=3 e k=1. 
 
 Sequência 
+```
 X<sub>0</sub> = 1
 X<sub>1</sub> = (3 * 1) mod 31 = 3
 X<sub>2</sub> = (3 * 3) mod 31 = 9
@@ -50,6 +51,7 @@ X<sub>27</sub> = (3 * 18) mod 31 = 23
 X<sub>28</sub> = (3 * 23) mod 31 = 7
 X<sub>29</sub> = (3 * 7) mod 31 = 21
 X<sub>30</sub> = (3 * 21) mod 31 = 1 (Repete)
+```
 
 Para esse caso, temos uma sequência de 30, logo já está provado que para um a=3 temos uma sequência m-1.
 
