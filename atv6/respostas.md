@@ -20,37 +20,37 @@ R: Sabemos que 31 é primo, logo devemos achar um a que produz um periodo máxim
 
 Sequência 
 ```
-X<sub>0</sub> = 1
-X<sub>1</sub> = (3 * 1) mod 31 = 3
-X<sub>2</sub> = (3 * 3) mod 31 = 9
-X<sub>3</sub> = (3 * 9) mod 31 = 27
-X<sub>4</sub> = (3 * 27) mod 31 = 19
-X<sub>5</sub> = (3 * 19) mod 31 = 26
-X<sub>6</sub> = (3 * 26) mod 31 = 16
-X<sub>7</sub> = (3 * 16) mod 31 = 17
-X<sub>8</sub> = (3 * 17) mod 31 = 20
-X<sub>9</sub> = (3 * 20) mod 31 = 29
-X<sub>10</sub> = (3 * 29) mod 31 = 25
-X<sub>11</sub> = (3 * 25) mod 31 = 13
-X<sub>12</sub> = (3 * 13) mod 31 = 8
-X<sub>13</sub> = (3 * 8) mod 31 = 24
-X<sub>14</sub> = (3 * 24) mod 31 = 10
-X<sub>15</sub> = (3 * 10) mod 31 = 30
-X<sub>16</sub> = (3 * 30) mod 31 = 28
-X<sub>17</sub> = (3 * 28) mod 31 = 22
-X<sub>18</sub> = (3 * 22) mod 31 = 4
-X<sub>19</sub> = (3 * 4) mod 31 = 12
-X<sub>20</sub> = (3 * 12) mod 31 = 5
-X<sub>21</sub> = (3 * 5) mod 31 = 15
-X<sub>22</sub> = (3 * 15) mod 31 = 14
-X<sub>23</sub> = (3 * 14) mod 31 = 11
-X<sub>24</sub> = (3 * 11) mod 31 = 2
-X<sub>25</sub> = (3 * 2) mod 31 = 6
-X<sub>26</sub> = (3 * 6) mod 31 = 18
-X<sub>27</sub> = (3 * 18) mod 31 = 23
-X<sub>28</sub> = (3 * 23) mod 31 = 7
-X<sub>29</sub> = (3 * 7) mod 31 = 21
-X<sub>30</sub> = (3 * 21) mod 31 = 1 (Repete)
+X_0 = 1
+X_1 = (3 * 1) mod 31 = 3
+X_2 = (3 * 3) mod 31 = 9
+X_3 = (3 * 9) mod 31 = 27
+X_4 = (3 * 27) mod 31 = 19
+X_5 = (3 * 19) mod 31 = 26
+X_6 = (3 * 26) mod 31 = 16
+X_7 = (3 * 16) mod 31 = 17
+X_8 = (3 * 17) mod 31 = 20
+X_9 = (3 * 20) mod 31 = 29
+X_10 = (3 * 29) mod 31 = 25
+X_11 = (3 * 25) mod 31 = 13
+X_12 = (3 * 13) mod 31 = 8
+X_13 = (3 * 8) mod 31 = 24
+X_14 = (3 * 24) mod 31 = 10
+X_15 = (3 * 10) mod 31 = 30
+X_16 = (3 * 30) mod 31 = 28
+X_17 = (3 * 28) mod 31 = 22
+X_18 = (3 * 22) mod 31 = 4
+X_19 = (3 * 4) mod 31 = 12
+X_20 = (3 * 12) mod 31 = 5
+X_21 = (3 * 5) mod 31 = 15
+X_22 = (3 * 15) mod 31 = 14
+X_23 = (3 * 14) mod 31 = 11
+X_24 = (3 * 11) mod 31 = 2
+X_25 = (3 * 2) mod 31 = 6
+X_26 = (3 * 6) mod 31 = 18
+X_27 = (3 * 18) mod 31 = 23
+X_28 = (3 * 23) mod 31 = 7
+X_29 = (3 * 7) mod 31 = 21
+X_30 = (3 * 21) mod 31 = 1 (Repete)
 ```
 
 Para esse caso, temos uma sequência de 30, logo já está provado que para um a=3 temos uma sequência m-1.
